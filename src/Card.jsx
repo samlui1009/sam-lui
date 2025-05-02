@@ -9,10 +9,7 @@ function Card() {
             <p>I am a current Bachelor of Computer Science (BCS) student, 
                 affiliated with the University of British Columbia.
             </p>
-            <p>I have deeply rooted passions in applying technological advancements 
-                to improve overall care quality, and health outcomes. My goal is to
-                use my new skillsets attained from my second degree to give back and make
-                fruitful contributions to society and beyond.
+            <p>I'm an aspiring SWE.
             </p>
         </div>
     );

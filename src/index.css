@@ -8,6 +8,7 @@
     margin: 10px;
     text-align: center;
     font-family: "Roboto", sans-serif;
+    background-color: #ABD2FA;
 }
 
 .intro-header {
@@ -16,12 +17,22 @@
 
 .header-title {
     font-size: 50px;
+    text-align: center;
     font-family: "Roboto", sans-serif;
 }
 
-.nav-bar {
+.navbar {
+    background: #FFF;
+    padding: 20px 18px;
+    color: white;
     font-size: 25px;
     font-family: "Roboto", sans-serif;
+}
+
+.nav-options {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .footer {
