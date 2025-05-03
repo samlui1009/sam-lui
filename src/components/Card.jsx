@@ -10,11 +10,14 @@ function Card() {
         <div className="card">
             <div className="intro-text">
                 <h2>👋 It's nice to meet you.</h2>
-                <p>I am a current Bachelor of Computer Science (BCS) student, 
-                    affiliated with the University of British Columbia.
+                <p>I am a current Bachelor of Computer Science (BCS) student, studying
+                    at the University of British Columbia.
                 </p>
                 <p>I'm a former genetics technologist, aspiring SWE, data science enthusiast and bubble tea
                     connoisseur.
+                </p>
+                <p>With a foundational background in healthcare, 
+                    I hope to bring scalable solutions to the digital health space.
                 </p>
                 </div>
             </div>

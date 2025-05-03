@@ -20,14 +20,15 @@
     border-style: groove;
     padding: 100px;
     margin: 60px;
-    background-color: #ABD2FA;
+    background-color:antiquewhite;
+    /* background-color: #ABD2FA; */
     font-size: 25px;
     max-width: 800px;
 }
 
 .my-photo {
-    width: 180px;
-    height: 180px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
 }
