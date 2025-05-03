@@ -41,8 +41,7 @@
 
 .contact-form {
     width: 600px;
-    width: 50%;
-    min-height: 100vh;
+    min-height: 75vh;
     display: flex;
     border: 10px black;
     margin-bottom: 50px;
@@ -50,26 +49,46 @@
 }
 
 .input-box {
+    width: 100%;
+    margin-top: 20px;
     font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.field {
-    font-size: 1.5rem;
-    height: 50px;
+.input-box label {
+    font-size: 2.5rem;
     margin-left: 20px;
-    width: 175px;
-    border-radius: 20px;
+    margin-bottom: 5px;
 }
+
+.field, .msg-field {
+    padding: 15px;
+    font-size: 2.0rem;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 90%;
+  }
 
 .msg-field {
-    border-radius: 20px;
-    font-size: 1.5rem;
-    height: 50px;
-    margin-left: 20px;
+    min-height: 50vh;
+    resize: both;
 }
 
 .send-msg {
+    margin-top: 50px;
+    border: white;
     border-radius: 20px;
     height: 50px;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
 }
+
+.send-msg:hover {
+    background-color: rgba(235, 195, 160, 0.947);
+}
+
+.send-msg:active {
+    background: rgba(194, 155, 120, 0.947);
+}
+
