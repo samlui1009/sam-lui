@@ -1,6 +1,8 @@
+import React from 'react';
 import './Contact.css';
-import Image from '../assets/cozy-workspace.png';
+import Image from '../assets/workspace_background.png';
 import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 
 function Contact() {
 
@@ -16,9 +18,25 @@ function Contact() {
         </p>
         <img src={Image} className="contact-me-photo"></img>
         <p className="paragraph-2">
-            Feel free to fill out the form below. I'm looking forward to hearing from you. 
+            I'm looking forward to hearing from you! 
         </p>
+        <form className="contact-form">
+        <div className="input-box">
+            <label>Full Name</label>
+            <input type="text" className="field" placeholder="Enter your name" required />
         </div>
+        <div className="input-box">
+            <label>Email Address</label>
+            <input type="text" className="field" placeholder="Enter your e-mail" required />
+        </div>
+        <div className="input-box">
+            <label>Write Your Message</label>
+            <input type="text" className="msg-field" placeholder="Write your message here" required />
+        </div>
+        <button type="submit" className="send-msg">Send Message</button>
+        </form>
+        </div>
+        <Footer></Footer>
         </>
     )
 
