@@ -1,9 +1,13 @@
 import './AboutMe.css';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
 import '../components/CareerTimeline.jsx';
 import CareerTimeline from '../components/CareerTimeline.jsx';
 
 function AboutMe() {
     return (
+        <>
+        <Navbar></Navbar>
         <div>
             <div className="career-transition"> 
                 <h2 className="career-transition-title">What did I do before making my second career transition?</h2>
@@ -48,6 +52,8 @@ function AboutMe() {
                 </ul>
             </div>
         </div>
+        <Footer></Footer>
+        </>
     )
 }
     

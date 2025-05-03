@@ -5,6 +5,10 @@ import Image from '../assets/workspace_background.png';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 
+// Reference code for EmailJS from here:
+// https://www.youtube.com/watch?v=bMq2riFCF90
+// And corresponding documentation from EmailJS itself
+
 function Contact() {
     const form = useRef();
 
