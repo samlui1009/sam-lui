@@ -1,0 +1,17 @@
+/* Personal Note: Do NOT use import statements for assets 
+if they are for a CSS file! It doesn't work! */
+
+body {
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    background-image: url('../assets/workspace_background.png'); */
+    background-color: #F5F5F5;
+}
+
+.typed-output {
+    justify-content: center;
+    display: flex;
+    font-size: 125px;
+}

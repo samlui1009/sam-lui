@@ -1,23 +1,4 @@
-.career-timeline {
-    max-width: 600px;
-}
-
-.timeline-divider {
-    background: gray;
-}
-
-.timeline-logo {
-    background: white;
-    width: 150px;
-    height: 120px;
-    object-fit: contain;
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-}
-
-.timeline-logo-offset {
-    width: 150px;
-    border-radius: 50%;
-    
-}
+/* .timeline-divider {
+    height: 1000px;
+    width: 100%;
+} */

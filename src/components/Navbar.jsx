@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaLaptopCode, FaRegFilePdf, FaUser, FaGithub, FaHome, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 // Important for how single-page applications handle navigation
