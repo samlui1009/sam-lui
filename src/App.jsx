@@ -10,6 +10,7 @@ import Contact from './pages/Contact.jsx';
 // All components MUST be imported before they can be used in the JSX code
 // Error likely gets thrown without i - Rendering of route not possible
 
+
 function App() {
     return (
         <Router>

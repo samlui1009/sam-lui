@@ -1,19 +1,21 @@
 import './AboutMe.css';
+import '../components/CareerTimeline.jsx';
+import CareerTimeline from '../components/CareerTimeline.jsx';
 
 function AboutMe() {
     return (
         <div>
             <div className="career-transition"> 
-                <h2>What did I do before making my second career transition?</h2>
-                <p>I started my first undergraduate degree in 2011, graduating in December 2017 with a 
-                Bachelors of Health Sciences (Life Sciences Concentration) from Simon Fraser University.
-                After working in industry for a few years as a research assistant, I attended the British Columbia Institute of Technology,
-                earning an advanced diploma in Clinical Genetics Technology.
-                Then, after 3 years working in public healthcare, I decided that it was time to make the switch - as such, here I am!  
+                <h2 className="career-transition-title">What did I do before making my second career transition?</h2>
+                <p>
+                    Here's a snippet of my educational and career journey!
                 </p>
+                <div>
+                <CareerTimeline/>
+                </div>
             </div>
             <div className="why-tech">
-                <h2>Why tech, of all things?</h2>
+                <h2 className="why-tech-title">Why tech, of all things?</h2>
                 <p>Great question! Putting aside my deep fascination with technology and its limitless potential to build 
                 whatever ones' heart desires, working as a healthcare
                 professional made me realize the critical pain points often associated with care delivery. 
@@ -29,7 +31,7 @@ function AboutMe() {
                 </p>
             </div>
             <div className="hobbies">
-                <h2>What are some things that you like to do in your spare time?</h2>
+                <h2 className="hobbies-title">What are some things that you like to do in your spare time?</h2>
                 <p>When I'm not studying or geeking out over genetics, I love crocheting amigurumi, playing cozy Steam games and
                 baking Asian-infused desserts. See below for some of my most favourite creations!
                 </p>

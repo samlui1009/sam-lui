@@ -1,18 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+.career-transition-title {
+    font-size: 30px;
+}
+
 .career-transition {
     text-align: center;
     font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.why-tech-title {
+    font-size: 30px;
 }
 
 .why-tech {
     text-align: center;
     font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.hobbies-title {
+    font-size: 30px;
 }
 
 .hobbies {
     text-align: center;
     font-family: "Roboto", sans-serif;
+    font-size: 20px;
 }
 
 .interesting-facts {
