@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
 import Image from '../assets/workspace_background.png';
-import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 
 // Reference code for EmailJS from here:
@@ -33,7 +32,6 @@ function Contact() {
     
     return(
         <>
-        <Navbar></Navbar>
         <div className="thank-you-container">
         <h1 className="contact-title">Contact Me</h1>
         <p className="paragraph-1">
@@ -47,7 +45,7 @@ function Contact() {
         </p>
         <form ref={form} onSubmit={sendEmail} className="contact-form">
         <div className="input-box">
-            <label>Full Name</label>
+            <label>Name</label>
             <input type="text" name="user_name" className="field" placeholder="Enter your name" required />
         </div>
         <div className="input-box"> 
@@ -64,7 +62,6 @@ function Contact() {
         <button type="submit" className="send-msg">Send Message</button>
         </form>
         </div>
-        <Footer></Footer>
         </>
 
         // Draft that pops up in Outlook is how EmailJS interacts with

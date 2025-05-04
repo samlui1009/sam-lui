@@ -6,6 +6,9 @@ import Home from './pages/Home.jsx';
 import AboutMe from './pages/AboutMe.jsx';
 import Projects from './pages/Projects.jsx';
 import Contact from './pages/Contact.jsx';
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
+
 // We CANNOT be missing any import statements!
 // All components MUST be imported before they can be used in the JSX code
 // Error likely gets thrown without i - Rendering of route not possible
@@ -13,7 +16,9 @@ import Contact from './pages/Contact.jsx';
 
 function App() {
     return (
+        <div className="app">
         <Router>
+            <Navbar></Navbar>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/aboutme" element={<AboutMe />} />
@@ -22,7 +27,9 @@ function App() {
                 {/* Path informs which page component to show */}
                 {/* Think of it like amazon.com -> amazon.com/cart */}
             </Routes>
+            <Footer className="footer"></Footer>
         </Router>
+        </div>
     );
 }
 

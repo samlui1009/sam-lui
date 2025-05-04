@@ -1,6 +1,4 @@
 import Card from '../components/Card.jsx';
-import Navbar from '../components/Navbar.jsx';
-import Footer from '../components/Footer.jsx';
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
 import './Home.css';
@@ -30,11 +28,9 @@ function Home() {
 
     return(
         <div>
-        <Navbar></Navbar>
         <div className="typed-output"><span ref={el} />
         </div>
         <Card></Card>
-        <Footer></Footer>
         </div>
     );
 }
