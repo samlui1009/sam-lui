@@ -46,7 +46,7 @@ function Contact() {
             I look forward to hearing from you soon! 
         </p>
         <div className="ext-links">
-            <a href="mailto:sam_lui@hotmail.ca"><button className="link-buttons"><IoIosMail className="icon"></IoIosMail>E-mail - sam_lui@hotmail.ca</button></a>
+            <a href="mailto:sam_lui@hotmail.ca"><button className="link-buttons"><IoIosMail className="icon"></IoIosMail>E-mail me directly!</button></a>
             <a href="https://devpost.com/sam_lui" target="_blank"><button className="link-buttons-special"><SiDevpost className="icon"></SiDevpost>Check out my Devpost!</button></a>
             <a href="https://www.linkedin.com/in/sam-lui-6250a787/" target="_blank"><button className="link-buttons">
                 <FaLinkedin className="icon"></FaLinkedin>Add me as a connection!</button></a>

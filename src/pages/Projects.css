@@ -1,0 +1,11 @@
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    width: 105%;
+}
+
+.title {
+    font-size: 6rem;
+}
