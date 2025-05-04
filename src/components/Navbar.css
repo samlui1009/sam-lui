@@ -8,15 +8,43 @@
     text-decoration: none;
 }
 
+.bar-container {
+    background-color: #beadad;
+}
+
 .navbar {
     border-radius: 50%;
     border-color: black;
     width: 100%;    /* padding: 20px 18px; */
     font-size: 25px;
+    text-decoration: none;
 }
 
-.nav-options {
+.navbar a {
+    color: #896c6c;
+}
+/* First time view before ANY interaction */
 
+.navbar a:hover {
+    color: #735b5b;
+}
+/* Mouse hovers over it */
+
+.navbar a:visited:hover {
+    color: #735b5b;
+}
+/* Ensures visited links still change on hover */
+
+.navbar a:visited {
+    color: #5d4a4a;
+}
+
+/* Having some troubleshooting issues here */
+/* CSS specificity & cascade issue encountered */
+/* When trying to apply both visited and hover, visited may override hover for certain properties */
+/* Color is one of them! */
+
+.nav-options {
     padding: 15px 7%;
     list-style-type: none;
     display: flex;
@@ -27,3 +55,7 @@
 .nav-options li {
     margin-left: 25px;
 } 
+
+.nav-options li:active {
+    color: rgba(235, 195, 160, 0.947);
+}
