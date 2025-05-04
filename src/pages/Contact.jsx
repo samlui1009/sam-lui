@@ -1,8 +1,10 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css';
+import { FaLinkedin } from 'react-icons/fa';
+import { SiDevpost } from 'react-icons/si';
+import { IoIosMail } from 'react-icons/io';
 import Image from '../assets/workspace_background.png';
-import Footer from '../components/Footer.jsx';
 
 // Reference code for EmailJS from here:
 // https://www.youtube.com/watch?v=bMq2riFCF90
@@ -41,8 +43,14 @@ function Contact() {
         </p>
         <img src={Image} className="contact-me-photo"></img>
         <p className="paragraph-2">
-            I'm looking forward to hearing from you soon! 
+            I look forward to hearing from you soon! 
         </p>
+        <div className="ext-links">
+            <a href="mailto:sam_lui@hotmail.ca"><button className="link-buttons"><IoIosMail className="icon"></IoIosMail>E-mail - sam_lui@hotmail.ca</button></a>
+            <a href="https://devpost.com/sam_lui" target="_blank"><button className="link-buttons-special"><SiDevpost className="icon"></SiDevpost>Check out my Devpost!</button></a>
+            <a href="https://www.linkedin.com/in/sam-lui-6250a787/" target="_blank"><button className="link-buttons">
+                <FaLinkedin className="icon"></FaLinkedin>Add me as a connection!</button></a>
+        </div>
         <form ref={form} onSubmit={sendEmail} className="contact-form">
         <div className="input-box">
             <label>Name</label>
