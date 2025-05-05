@@ -6,6 +6,10 @@ import Enduro from '../assets/enduro.jpg';
 import DailySips from '../assets/dailysips-logo.png'
 import Portfolio from '../assets/portfolio-logo.png';
 
+import { SiMongodb, SiJupyter, SiJunit5, SiVite, SiCss3, SiJson, SiFigma } from 'react-icons/si';
+import { FaReact, FaJava } from 'react-icons/fa';
+
+
 function ProjectGrid() {
     return (
         <>
