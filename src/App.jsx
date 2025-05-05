@@ -16,20 +16,23 @@ import Footer from './components/Footer.jsx';
 
 function App() {
     return (
-        <div className="app">
         <Router>
-            <Navbar></Navbar>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/aboutme" element={<AboutMe />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contactme" element={<Contact />} />
-                {/* Path informs which page component to show */}
-                {/* Think of it like amazon.com -> amazon.com/cart */}
-            </Routes>
+            <div className="app">
+                <Navbar></Navbar>
+                <div className="main-content">
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/aboutme" element={<AboutMe />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/contactme" element={<Contact />} />
+                    {/* Path informs which page component to show */}
+                    {/* Think of it like amazon.com -> amazon.com/cart */}
+                </Routes>
+            </div>
+            {/* </div> */}
             <Footer className="footer"></Footer>
-        </Router>
         </div>
+        </Router>
     );
 }
 
