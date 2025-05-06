@@ -18,8 +18,8 @@ function ProjectGrid() {
             title = "DailySips"
             type = "Academic"
             image = { DailySips }
-            description = "A Java-based CLI and user-friendly GUI, aimed to help
-            users monitor and track their patterns in daily consumption of beverages, helping them stay below their set calorie, caffeine and sugar intake."
+            description = "A Java-based application with both a command-line interface (CLI) and user-friendly GUI that helps users track
+            their daily beverage consumption, monitoring calories, caffeine and sugar intake to support healthier habits with personalized goals."
             url = "https://github.com/samlui1009/DailySips">
             </ProjectCard>
 
@@ -27,7 +27,8 @@ function ProjectGrid() {
             title = "PantryPal"
             type = "BCS Hacks 2025 Project"
             image = { PantryPal }
-            description = "Don't fret over having to creatively think up new recipes ever again! Use PantryPal to save time, money, reduce food wastage and promote healthy cooking with easy-to-follow AI-generated recipes!"
+            description = "PantryPal is a full-stack web application that generates recipe suggestions based on ingredients already on hand at home. 
+            It aims to reduce food waste, save time and promote healthy cooking through AI assistance."
             url = "https://github.com/ajarodpaulson/pantry_pal">
             </ProjectCard>
 
@@ -35,8 +36,8 @@ function ProjectGrid() {
             title = "Sam's Portfolio Page"
             type = "Personal"
             image = { Portfolio }
-            description = "With a combination of StackOverflow scouring, w3schools, YouTube tutorials and 
-            generative AI, I created a simple yet dynamic portfolio page to showcase my previous experiences and recent coding projects."
+            description = "Leveraging resources like StackOverflow, w3schools, YouTube tutorials and generative AI, I independently
+            built this responsive portfolio site to highlight my technical learning journey."
             url = "https://github.com/samlui1009/portfolio_page">
             </ProjectCard>
 
@@ -44,8 +45,9 @@ function ProjectGrid() {
             title = "Enduro"
             type = "cmd-f 2025 Project"
             image = { Enduro }
-            description = "Having trouble keeping up and staying motivated with your fitness goals? Here's Enduro! Enduro helps users build up fitness habits incrementally, transforming 
-            them into a long-term lifestyle choice through different physical activities of their choice!"
+            description = "Struggling to stay on track with your fitness goals? Meet Enduro - your companion for 
+            building long-term fitness habits through activities of your preference in 15/30/45-minute and 1-hour increments. With FitBit, powered by the Groq API,
+            Enduro offers personalized fitness advice tailored to user inputs."
             url = "https://github.com/wendytso/exercise-tracker">
             </ProjectCard>
 
@@ -53,8 +55,9 @@ function ProjectGrid() {
             title = "Predicting Player Recruitment with the Pacific Laboratory of Artificial Intelligence"
             type = "Academic"
             image = { PLAI }
-            description = "My first foray into data science! In this project, my groupmates and I executed an exploratory analysis of player-oriented data to build a predictive 
-            KNN-regression model, determining if certain traits could contribute higher-quality data."
+            description = "This project was a great introduction into the subject of data science. This involved exploratory analysis of 
+            over 1,500 records of player data. Through proper cleaning and data transformation, my team built a KNN regression model to predict player attributes that would 
+            further refine recruitment strategies to contribute high-quality gameplay data."
             url = "https://github.com/Sen550/dsci100-project">
             </ProjectCard>
 
