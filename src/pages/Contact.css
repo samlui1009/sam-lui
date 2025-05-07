@@ -115,6 +115,8 @@
     border-radius: 20px;
     height: 50px;
     font-size: 2.0rem;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
 }
 
 .send-msg:hover {

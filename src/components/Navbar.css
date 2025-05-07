@@ -48,14 +48,19 @@
     padding: 15px 7%;
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 0;
 }
 
 .nav-options li {
-    margin-left: 25px;
+    margin-left: 50px;
 } 
 
 .nav-options li:active {
     color: rgba(235, 195, 160, 0.947);
+}
+
+.icon {
+    margin-bottom: 10px;
+    margin-right: 5px;
 }
