@@ -1,12 +1,8 @@
 
 import React from "react";
-// import { Chrono } from 'react-chrono';
+import { Button, Timeline, TimelineBody, TimelineContent, TimelineItem, TimelinePoint, TimelineTime, TimelineTitle } from 'flowbite-react';
 import './CareerTimeline.css';
 
-// Import statement required to ensure the auto-styling for CSS is loaded 
-// import { Timeline, TimelineItem, TimelineSeparator, TimelineConnector, TimelineContent, TimelineDot } from '@mui/lab';
-// import './CareerTimeline.css';
-// import { Popover, Typography, Paper} from "@mui/material";
 
 import SFULogo from '../assets/sfu-logo.png';
 import AgriLogo from '../assets/agri-logo.jpg';
@@ -17,7 +13,10 @@ import BCChildrens from '../assets/bc-childrens-logo.jpg';
 import UBCLogo from '../assets/ubc-logo.png';
 
 function CareerTimeline() {
-
+    return (
+        <>
+        </>
+    );
 }
 
 export default CareerTimeline;

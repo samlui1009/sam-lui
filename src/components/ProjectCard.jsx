@@ -10,11 +10,12 @@ function ProjectCard({ title, image, type, description, url, stack }) {
             <img src={ image } className="project-image"></img>
             <h4>{ type }</h4>
             <p>{description}</p>
-            {/* <div className='tech-stack-container'>
+            <h4 className="tech-stack-title">Tech Stack</h4>
+            <div className='tech-stack-container'>
                 {stack.map((Icon, index) => (
                     <Icon key={index} size={35} title={Icon.displayName} className="tech-icon" />
                 ))}
-            </div> */}
+            </div>
             <button className = "code-button"><a href = { url } target="_blank">Github Repo</a></button>
         </div>
         </>

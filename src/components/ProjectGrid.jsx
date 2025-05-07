@@ -20,8 +20,8 @@ function ProjectGrid() {
             image = { DailySips }
             description = "A Java-based application with both a command-line interface (CLI) and user-friendly GUI that helps users track
             their daily beverage consumption, monitoring calories, caffeine and sugar intake to support healthier habits with personalized goals."
-            url = "https://github.com/samlui1009/DailySips">
-            // stack = {[ FaJava, SiJson, SiJunit5 ]}
+            url = "https://github.com/samlui1009/DailySips"
+            stack = {[ FaJava, SiJson, SiJunit5 ]}>
             </ProjectCard>
 
             <ProjectCard
@@ -31,7 +31,7 @@ function ProjectGrid() {
             description = "PantryPal is a full-stack web application that generates recipe suggestions based on ingredients already on hand at home. 
             It aims to reduce food waste, save time and promote healthy cooking through AI assistance."
             url = "https://github.com/ajarodpaulson/pantry_pal"
-            // stack = {[ FaReact, SiVite, SiCss3, SiJavascript, SiMongodb ]}
+            stack = {[ FaReact, SiVite, SiCss3, SiJavascript, SiMongodb ]}
             >
             </ProjectCard>
 
@@ -42,7 +42,7 @@ function ProjectGrid() {
             description = "Leveraging resources like StackOverflow, w3schools, YouTube tutorials and generative AI, I independently
             built this responsive portfolio site to highlight my technical learning journey."
             url = "https://github.com/samlui1009/portfolio_page"
-            // stack = {[FaReact, SiVite, SiCss3, SiJavascript]}
+            stack = {[FaReact, SiVite, SiCss3, SiJavascript]}
             >
             </ProjectCard>
 
@@ -54,7 +54,7 @@ function ProjectGrid() {
             building long-term fitness habits through activities of your preference in 15/30/45-minute and 1-hour increments. With FitBit, powered by the Groq API,
             Enduro offers personalized fitness advice tailored to user inputs."
             url = "https://github.com/wendytso/exercise-tracker"
-            // stack = {[FaReact, SiVite, SiCss3, SiJavascript, SiFigma]}
+            stack = {[ FaReact, SiVite, SiCss3, SiJavascript ]}
             >
             </ProjectCard>
 
@@ -66,7 +66,7 @@ function ProjectGrid() {
             over 1,500 records of player data. Through proper cleaning and data transformation, my team built a KNN regression model with R to predict player attributes that would 
             further refine recruitment strategies to contribute high-quality gameplay data."
             url = "https://github.com/Sen550/dsci100-project"
-            // stack = {[SiJupyter]}
+            stack = {[SiJupyter]}
             >
             </ProjectCard>
 

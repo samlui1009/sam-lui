@@ -47,6 +47,11 @@
     background: rgba(194, 155, 120, 0.947);
 }
 
+.tech-stack-title {
+    margin-top: auto;
+    border; none;
+}
+
 .tech-stack-container {
     display: flex;
     padding: 20px;

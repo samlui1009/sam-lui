@@ -1,11 +1,11 @@
 import './AboutMe.css';
-import '../components/CareerTimeline.jsx';
 import CareerTimeline from '../components/CareerTimeline.jsx';
 
 function AboutMe() {
     return (
         <>
         <div>
+            <CareerTimeline></CareerTimeline>
             <div className="career-transition"> 
                 <h2 className="career-transition-title">What did I do before making my second career transition?</h2>
                 <p>
