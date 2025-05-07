@@ -27,6 +27,8 @@
 
 .navbar a:hover {
     color: #735b5b;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
 }
 /* Mouse hovers over it */
 
