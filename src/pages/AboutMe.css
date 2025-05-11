@@ -33,6 +33,11 @@
     margin-right: 5px;
 }
 
+.education p {
+    padding-left: 2.5rem;
+    line-height: 1.75rem;
+}
+
 .technical-skills {
     display: flex;
     flex-direction: column;
@@ -176,7 +181,7 @@
     font-size: 3.5rem;
 }
 
-.hobbies-intro-section .paragraph {
+.hobbies-intro-section p{
     font-size: 2rem;
 }
 
@@ -186,6 +191,11 @@
     justify-content: center;
     align-items: center;
     font-size: 3.5rem;
+}
+
+.hobbies .photo-album {
+    width: 100%;
+    margin-top: 2rem;
 }
 
 .divider {

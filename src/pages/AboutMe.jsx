@@ -1,4 +1,6 @@
 import './AboutMe.css';
+import PhotoAlbum from '../components/PhotoAlbum.jsx';
+
 import { IoSchool, IoCalendarNumber } from 'react-icons/io5';
 import { FaComputer, FaLocationDot } from "react-icons/fa6";
 import { SiReaddotcv } from "react-icons/si";
@@ -8,19 +10,21 @@ import { IoIosHappy } from "react-icons/io";
 function AboutMe() {
     return (
         <>
-        <div>  
+        <div>
             <div className="education">
                 <h2 className="title">Education<IoSchool className="logo"></IoSchool></h2>
                 <hr className = "divider"></hr>
                 <h3 className="school">University of British Columbia</h3>
                 <p className="program">Bachelor of Computer Science (BCS) - Second Degree</p>
+                <p>UBC Science Co-op Participant</p>
+                <p>UBC BCS Tri-Mentorship Program Participant</p>
                 <h3 className="school">British Columbia Institute of Technology</h3>
                 <p className="program">Advanced Diploma in Clinical Genetics Technology</p>
                 <p>Graduated with Distinction (88%)</p>
                 <h3 className="school">Simon Fraser University</h3>
                 <p className="program">Bachelor of Health Sciences - Life Sciences Concentration</p>
                 <p>Dean's Honor Roll - Fall 2015</p>
-                <p>SFU-UBC Co-op Japan Participant</p>
+                <p>SFU-UBC Co-op Japan Participant (2016 - 2017)</p>
             </div>
 
             <div className="technical-skills">
@@ -99,17 +103,17 @@ function AboutMe() {
             <div className="volunteering">
                 <h2 className="title">Volunteering Experience<RiCommunityFill></RiCommunityFill></h2>
                 <div>
-                    <h3 className="org">The C.O.D.E. Initiative</h3>
+                    <h3 className="org">The C.O.D.E. Initiative - Remote Volunteer Tutor</h3>
                     <div className="job-info">
                     <p><FaLocationDot></FaLocationDot>Remote</p>
                     <p><IoCalendarNumber></IoCalendarNumber>September 2024 - April 2025</p>
                     </div>
                     <ul className="tasks">
-                        <li>Instructed youth in various S.T.E.A.M.-related topics (Web development, Python) in a virtual, one-on-one setting, helping them understand curriculum material while promoting the development of critical thinking and problem-solving skills</li>
+                        <li>Instructed neurodivergent youth in various S.T.E.A.M.-related topics (Web development, Python) in a virtual, one-on-one setting, helping them understand curriculum material while promoting the development of critical thinking and problem-solving skills</li>
                         <li>Provided clear, concise follow-up notes to parents and guardians to notify progress</li>
                     </ul>
                     <hr className = "divider"></hr>
-                    <h3 className="org">Children's Health Policy Centre</h3>
+                    <h3 className="org">Children's Health Policy Centre - Research Assistant</h3>
                     <div className="job-info">
                     <p><FaLocationDot></FaLocationDot>Vancouver, British Columbia</p>
                     <p><IoCalendarNumber></IoCalendarNumber>May 2015 - August 2016</p>
@@ -124,12 +128,9 @@ function AboutMe() {
             <div className="hobbies">
                 <div className="hobbies-intro-section">
                 <h2 className="title">Personal Interests<IoIosHappy></IoIosHappy></h2>
-                <p className="paragraph">Outside of building projects, coding and studying, you can often find me spending time in my wide array of hobbies.</p>
+                <p>Outside of building projects, coding and studying, you can often find me investing time in my wide array of hobbies.</p>
+                <div className="photo-album"><PhotoAlbum /></div>
                 </div>
-                <h3>Crochet</h3>
-                <h3>Travel</h3>
-                <h3>Long-Distance Running</h3>
-                <h3>Creative Writing</h3>
             </div>
 
         </div>
