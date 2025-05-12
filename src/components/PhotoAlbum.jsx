@@ -5,12 +5,12 @@ import "react-photo-album/rows.css";
 function PhotoAlbum() {
 
     return (
-        <RowsPhotoAlbum 
+        <RowsPhotoAlbum className="photo-album"
         photos={Photos}
         columns={4}
         defaultContainerWidth={800}
         rowConstraints={{ maxPhotos: 5 }}
-         />
+        />
     );
 }
 
