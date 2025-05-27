@@ -27,6 +27,7 @@ function AboutMe() {
                     <p className="date">August 2020 - October 2021</p>
                 </div>
                 <p>Graduated with Distinction (88%)</p>
+                <p>Certified Clinical Genetics Technologist under the Canadian Society for Medical Laboratory Science</p>
 
                 <h3 className="school">Simon Fraser University</h3>
                 <div className="school-info">
@@ -34,6 +35,7 @@ function AboutMe() {
                     <p className="date">September 2011 - December 2017</p>
                 </div>
                 <p>Dean's Honor Roll - Fall 2015</p>
+                <p>SFU Work Integrated Learning Co-op Participant</p>
                 <p>SFU-UBC Co-op Japan Participant (2016 - 2017)</p>
             </div>
 
@@ -42,9 +44,9 @@ function AboutMe() {
                 <h3 className="type">Programming Languages</h3>
                 <p className="list">HTML, CSS, Java, Python, SQL (PostgreSQL), R</p>
                 <h3 className="type">Frameworks and Libraries</h3>
-                <p className="list">React.js, JSwing, JUnit Jupiter</p>
+                <p className="list">React.js, JSwing, JUnit Jupiter, Tidyverse</p>
                 <h3 className="type">Developer Tools</h3>
-                <p className="list">Git, GitHub, Vite, Node.js (build environment), Visual Studio Code, Jupyter, Filmora</p>
+                <p className="list">Git, GitHub, Vite, Node.js (build environment), MongoDB, JSON, Visual Studio Code, Jupyter, Filmora</p>
             </div>
 
             <div className="professional-exp"> 
@@ -56,10 +58,9 @@ function AboutMe() {
                     <p><IoCalendarNumber className="logo"></IoCalendarNumber>November 2021 - August 2024</p>
                     </div>
                     <ul className="tasks">
-                        <li>Applied advanced cytogenetics wet lab skills for high-volume culturing of peripheral blood and bone marrow aspirates</li>
-                        <li>Performed molecular techniques such as automated DNA extraction for over 100 specimens weekly, PCR, and capillary electrophoresis (ABI 3500), ensuring swift and accurate analysis with GeneMapper</li>
-                        <li>Demonstrated excellent Cytovision proficiency, accurately identifying and reporting abnormal patient findings with the correct ISCN nomenclature within established CAP turnaround times</li>
-                        <li>Provided thorough training to junior technologists and practicum students, ensuring full mastery of skills through constructive feedback</li>
+                        <li>Performed high-volume culturing and analysis of biohazardous patient specimens using advanced molecular techniques; collaborated in a multidisciplinary healthcare team to deliver compassionate care through delivery of results before established turnaround times </li>
+                        <li>Operated, maintained and troubleshooted diagnostic laboratory equipment by following standardized operating procedures; liaised with vendors and IT teams to minimize downtime in a fast-paced, time-sensitive environment</li>
+                        <li>Mentored incoming junior technologists and practicum students, promoting a supportive learning environment </li>
                     </ul>
                     <hr className = "divider"></hr>
                     <h3 className="org">Children's Hospital of Eastern Ontario - Cytogenetics Practicum Student</h3>

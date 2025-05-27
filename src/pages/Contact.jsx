@@ -51,6 +51,9 @@ function Contact() {
             <a href="https://www.linkedin.com/in/sam-lui-6250a787/" target="_blank"><button className="link-buttons">
                 <FaLinkedin className="icon"></FaLinkedin>Add me as a connection!</button></a>
         </div>
+        <div className="send-msg-section">
+            <p>Message Form</p>
+        </div>
         <form ref={form} onSubmit={sendEmail} className="contact-form">
         <div className="input-box">
             <label>Name</label>
@@ -63,7 +66,7 @@ function Contact() {
             //  Thus, no resizing is necessary in this regard */}
         </div>
         <div className="input-box">
-            <label>Write Your Message</label>
+            <label>What's Your Message?</label>
             <textarea name="message" className="msg-field" placeholder="Write your message here" required />
             {/* Textarea is explicitly made for multi-line content like messages and comments, permitting resizing */}
         </div>

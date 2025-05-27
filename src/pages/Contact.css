@@ -127,3 +127,9 @@
     background: rgba(194, 155, 120, 0.947);
 }
 
+.send-msg-section {
+    margin-top: 50px;
+    font-size: 3.0rem;
+    text-decoration: underline;
+}
+
